@@ -4,3 +4,4 @@ node_modules
 npm-debug.log
 coverage.html
 lib-cov
+public/bower_components
