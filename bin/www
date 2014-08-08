@@ -1,5 +1,12 @@
 #!/usr/bin/env node
-var app = require('../').app;
+var app = require('../');
+var assert = require('assert');
+
+assert(process.env.FACEBOOK_APP_SECRET, "Requires FACEBOOK_APP_SECRET environment variable.");
+assert(process.env.FACEBOOK_APP_ID, "Requires FACEBOOK_APP_ID environment variable.");
+assert(process.env.YOUTUBE_ACCESS_TOKEN, "Requires YOUTUBE_ACCESS_TOKEN environment variable.");
+assert(process.env.ORCHESTRATE_API_KEY, "Requires ORCHESTRATE_API_KEY environment variable.");
+
 
 app.set('port', process.env.PORT || 3000);
 
