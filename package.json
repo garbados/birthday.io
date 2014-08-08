@@ -4,6 +4,7 @@
   "description": "Send birthday videos to your friends and enemies!",
   "main": "index.js",
   "scripts": {
+    "start": "./bin/www",
     "test": "npm run jshint && npm run jscoverage && npm run mocha",
     "debug": "npm run jshint && NODE_ENV=development npm run mocha",
     "jshint": "./node_modules/.bin/jshint bin jobs lib test",
