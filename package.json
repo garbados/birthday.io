@@ -1,18 +1,31 @@
 {
   "name": "birthday.io",
   "version": "0.0.0",
-  "description": "",
+  "description": "Send birthday videos to your friends and enemies!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run jshint && npm run jscoverage && npm run mocha",
+    "debug": "npm run jshint && NODE_ENV=development npm run mocha",
+    "jshint": "./node_modules/.bin/jshint bin jobs lib test",
+    "jscoverage": "./node_modules/.bin/jscoverage lib lib-cov",
+    "mocha": "./node_modules/.bin/mocha test -R spec",
+    "coveralls": "npm run jscoverage && ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/.bin/coveralls",
+    "cov-html": "npm run jshint && npm run jscoverage && ./node_modules/.bin/mocha test -R cov-html > coverage.html"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Diana Thayer <garbados@gmail.com>",
+  "license": "ASLv2",
   "dependencies": {
     "async": "^0.9.0",
     "fb": "^0.7.0",
     "kew": "^0.4.0",
     "orchestrate": "^0.3.3",
     "youtube-api": "^0.2.2"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.1",
+    "jscoverage": "^0.5.5",
+    "jshint": "^2.5.2",
+    "mocha": "^1.21.4",
+    "mocha-lcov-reporter": "0.0.1"
   }
 }
