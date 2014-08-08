@@ -23,7 +23,7 @@ For birthday.io to run, it requires the following environment variables to be se
 
 * `ORCHESTRATE_API_KEY`: store information in the [Orchestrate](http://orchestrate.io/) DBaaS.
 * `YOUTUBE_ACCESS_TOKEN`: get videos from YouTube.
-* `FACEBOOK_ACCESS_TOKEN`: list users' friends who have birthdays today or soon.
+* `FACEBOOK_APP_ID` and `FACEBOOK_APP_SECRET`: list users' friends who have birthdays today or soon.
 * `GOOGLE_ANALYTICS_TOKEN`: collects visitor data using Google Analytics. (optional)
 
 If any required variables are not set, birthday.io will not run.
