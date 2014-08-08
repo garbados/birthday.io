@@ -4,3 +4,9 @@ node_js:
 - '0.10'
 after_success:
 - npm run coveralls
+env:
+  global:
+  - secure: g5KWbFKAJb/9N2Hh6+MxmERmBOQ/WCECfUbZQZahsPBiO4A4EvC3S93/j7qbtbAzPfvMXVuKv4Daki/6UiNVr5zambqqrzBhuUBuwrR7xG3yZxnLPr0Fu0qoKCasDaxooKg7SDRHsx6P8V+ehJya0stRyikqB6F6qQmsSxiROVk=
+  - secure: Pw6mzxFRU7VqWPa29SlpmQYhiMX/VLAZROsTohlhk2WrycuiLDo4386islmqfdvfzUguylIGJadOZ9nxXPeWfuU7lAjMUXRsgiIwvtCDL0b+zvVp2zYELs4Ogq+B/26BYCWTTxHNY6ZlmZRDaCa3TqZ7KQir0rqZ2H1viQ+z7VQ=
+  - secure: j7j4v1/LLj3c7x3pFYCv6SVIb4ghjvXmupuwzRycN4hTfcTZL+U/xSXT6RyWOTetO+hKGMRUeXM/9IYy6JDupHVOsPOelWoNk2JLTz+BwdFEFZulAdmZMpVL8iZYjx0ULPzbb1/Y/Nm4RGxd7rqk+JPkn9QaAyetY1Fu56Fy85o=
+  - secure: Yh3wjmk9tVP6kzpribxJrg1MO4+MALyxRinrGc4679jdy5EqEYcM2w8QOsJHTWNYpkEbHRpKKqDg54HvW7dqT/u4+dKeF+OYY3dFOyLQnEBstm9P4y2KUMUSQfieLZo+/VQ+LvzfEpSW9X8KigOsZYzpJc+cYiLSNSTxnSwWtW0=
