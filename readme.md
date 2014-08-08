@@ -7,7 +7,7 @@ Send birthday videos to your friends and enemies!
 
 ## Install
 
-birthday.io requires [node.js]() to run. Once you have it installed, run this in a terminal:
+birthday.io requires [node.js](http://nodejs.org/) to run. Once you have it installed, run this in a terminal:
 
     git clone git@github.com:garbados/birthday.io.git
     cd birthday.io
