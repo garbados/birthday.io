@@ -1,5 +1,8 @@
 # birthday.io
 
+[![Build Status](https://travis-ci.org/garbados/birthday.io.svg)](https://travis-ci.org/garbados/birthday.io)
+[![Coverage Status](https://coveralls.io/repos/garbados/birthday.io/badge.png)](https://coveralls.io/r/garbados/birthday.io)
+
 Send birthday videos to your friends and enemies!
 
 ## Install
