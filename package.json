@@ -7,7 +7,7 @@
     "start": "./bin/www",
     "test": "npm run jshint && npm run jscoverage && npm run mocha",
     "debug": "npm run jshint && NODE_ENV=development npm run mocha",
-    "jshint": "./node_modules/.bin/jshint bin jobs lib test",
+    "jshint": "./node_modules/.bin/jshint bin lib test",
     "jscoverage": "./node_modules/.bin/jscoverage lib lib-cov",
     "mocha": "./node_modules/.bin/mocha test -R spec",
     "coveralls": "npm run jscoverage && ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/.bin/coveralls",
